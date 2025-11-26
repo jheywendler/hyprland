@@ -32,7 +32,7 @@ sudo dnf install flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Instalar fontes, ainda falta as Nerd, mas btw, depois procuro
-Log "Fonts"
+log "Fonts"
 sudo dnf install -y dejavu-fonts-all google-noto-sans* google-noto-serif* google-noto-mono* google-noto-sans-cjk* google-noto-serif-cjk* fira-code-fonts jetbrains-mono-fonts google-noto-emoji-color-fonts curl cabextract xorg-x11-font-utils fontconfig && sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcorefonts-2.6-1.noarch.rpm && sudo fc-cache -fv
 
 # Agora, finalmente os apps junto com o Hyprland.
